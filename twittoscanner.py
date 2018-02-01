@@ -5,7 +5,7 @@ from time import sleep
 
 time_delay = 2.5                       # Refresh time. There is a limit of 450 requests per 15 minutes, so don't go below 2 seconds
 outputfile = "output.csv"              # Output file name
-language = "en"                        # Language selection, use an ISO 639-1 code. Ex. "en"
+language = "en"                        # Language selection, use an ISO 639-1 code. Ex. "en" for English
 
 # AUTH
 
