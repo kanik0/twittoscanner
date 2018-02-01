@@ -13,7 +13,7 @@ pip install tweepy
 easy_install tweepy
 ```
 
-- Download and configure the python script by adding your key/secret to twittoscanner.py. Change the language variable to one of your choice (default is "en", English).
+- Download and configure the python script by adding your key/secret to twittoscanner.py. Change the language variable to one of your choice (default is "en", English), using an ISO 639-1 code.
 
 # Usage
 ```bash
@@ -21,4 +21,5 @@ easy_install tweepy
 ```
 
 # Additional parameters
-`time_delay` sets how long the script waits before loading new tweets. The API limits the script to 450 requests every 15 minutes, which means `time_delay` cannot be set below (15x60)/450 = 2 seconds.
+- `time_delay` sets how long the script waits before loading new tweets. The API limits the script to 450 requests every 15 minutes, which means `time_delay` cannot be set below (15x60)/450 = 2 seconds.
+- `outputfile` sets the file name for CSV output.
