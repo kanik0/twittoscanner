@@ -10,7 +10,7 @@ language = "en"                        # Language selection, use a ISO 639-1 cod
 # AUTH
 
 consumer_key = 'null'                                         # Your personal consumer key
-consumer_secret = null'                                       # Your personal consumer secret
+consumer_secret = 'null'                                       # Your personal consumer secret
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 api=tweepy.API(auth)
 
